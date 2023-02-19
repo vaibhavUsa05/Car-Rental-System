@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.greetingAgency{
+    color:orange;
+    float:right;
+position: relative;
+}
+.heading{
+    color:violet;
+    text-align: center;
+    font-weight: 20;
+}
+.form{
+    border: 2px solid black;
+    width:60vw;
+    height:auto;
+    padding: 5vw;
+    background-color: rgb(36, 247, 180);
+    margin: auto;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+.dashboard{
+ float:left;
+}
+.headingBold{
+    color:violet;
+    text-align: center;
+    font-weight:800;
+    margin-top:2%;
+}

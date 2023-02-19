@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    border: 2px solid black;
+    width:60vw;
+    height:auto;
+    padding: 5vw;
+    background-color: rgb(8, 8, 57);
+    margin: auto;
+    color:antiquewhite;
+}
+.redirect{
+    position:relative;
+    left:20%;
+}
+.heading{
+    color:darkmagenta;
+    text-align: center;
+}
+.alertUtil{
+    width:90%;
+    margin:auto;
+    z-index:1;
+    position: absolute;
+    top:5%;
+    font-size: 17px;
+}
