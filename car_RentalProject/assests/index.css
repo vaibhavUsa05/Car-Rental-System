@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.host{
+    border:1px solid cyan;
+    padding:1px;
+    color:black;
+    background-color: cyan;
+    border-radius: 15px;
+}
+.slide{
+    position: relative;
+}
+.navbar-list{
+   margin-left:75%;
+    direction: rtl;
+    }
+  /* Define initial styles for .jumbotron-navbar */
+.jumbotron-navbar {
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    right: 5%;
+    background-color: none;
+    background: transparent;
+    color: darkmagenta;
+    border: none;
+  }
+  
+  /* Define keyframes for animating the top and right properties */
+  @keyframes moveJumbotron {
+    from {
+      top: 20%;
+      right: 5%;
+    }
+    to {
+      top: 10%;
+      right: 2%;
+    }
+  }
+  
+  /* Apply animation to .jumbotron-navbar using a media query */
+  @media screen and (max-width: 768px) {
+    .jumbotron-navbar {
+      animation: moveJumbotron 1s ease-in-out infinite alternate;
+    }
+  }
